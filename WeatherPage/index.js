@@ -36,7 +36,7 @@ async function render(jsonData) {
   const temperature = 'Temperature: ' + tempMax;
 
   setBackgroundImage(cityStatus.toLowerCase());
-  output.innerHTML = [country, city, description, temperature].join('<br />');
+  outputElement.innerHTML = [country, city, description, temperature].join('<br />');
 }
 
 async function fetchCountryData(counrtyName) {
@@ -47,9 +47,7 @@ async function fetchCountryData(counrtyName) {
 }
 
 function setBackgroundImage(fileName) {
-  document.body.style.backgroundImage = `url(./Bilder/${fileName}.jpg)`;
+  document.body.style.backgroundImage = `url(./img/${fileName}.jpg)`;
 }
 
-function firstLetter(str) {
-  return str.charAt(0).toUpperCase() + str.slice(1);
-}
+
