@@ -1,5 +1,5 @@
 const userNamePattern = /^[a-z\d]{3,20}$/i;
-const emailPattern = /^\w+@\w+\..{2,3}(.{2,3})?$/;
+const emailPattern =/^([a-z\d-\.]+)@([a-z\d-]+)\.([a-z]{2,10})(\.[a-z]{2,10})?$/;
 const contentPattern = /^[a-z\d@-]{3,200}$/i;
 const username = document.getElementById('fname');
 const email = document.getElementById('email');
