@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <h1>Validation Form</h1>
+    <form id="form">
+      <div class="row">
+        <div class="col-25"><label>Full name</label></div>
+        <div class="col-75">
+          <input type="text" id="fname" placeholder="Your name.." />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25"><label>Email</label></div>
+        <div class="col-75">
+          <input
+            type="text"
+            id="email"
+            placeholder="Your email..  me@example.com"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25"><label>Title</label></div>
+        <div class="col-75">
+          <input type="text" id="title" placeholder="Sr, Dr, Prof" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25"><label>Content:</label></div>
+        <div class="col-75">
+          <textarea id="content" cols="91" rows="10"></textarea>
+        </div>
+      </div>
+
+      <button type="submit">Validate</button>
+      <div>
+        <p id="p1">Please write a valid username</p>
+        <p id="p2">The email address is not valid</p>
+        <p id="p3">The title is not valid</p>
+        <p id="p4">The content is required and cannot be empty</p>
+      </div>
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
