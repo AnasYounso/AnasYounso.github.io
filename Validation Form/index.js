@@ -1,6 +1,6 @@
 const userNamePattern = /^[a-z\d]{3,20}$/i;
 const passwordPattern = /^[\w@-]{6,20}$/;
-const emailPattern = /^\w+@\w+\..{2,3}(.{2,3})?$/;
+const emailPattern =/^([a-z\d-\.]+)@([a-z\d-]+)\.([a-z]{2,10})(\.[a-z]{2,10})?$/;
 const username = document.getElementById('username');
 const password = document.getElementById('password');
 const email = document.getElementById('email');
