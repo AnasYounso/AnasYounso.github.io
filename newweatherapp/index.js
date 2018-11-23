@@ -29,13 +29,13 @@ function searchWeather(searchTerm) {
       const tempMax = Math.floor(jsonData.main.temp_max) - 273;
       const countryData = fetchCountryData(countryName);
       const fullName = countryData.name;
-      const country = 'Country: ' + fullName;
+      //const country = 'Country: ' + fullName;
       const city = `City: ${cityName}`;
       const description = 'Weather Status: ' + weather_description;
       const temperature = 'Temperature: ' + tempMax;
 
       setBackgroundImage(cityStatus.toLowerCase());
-      outputElement.innerHTML = [country, city, description, temperature].join(
+      outputElement.innerHTML = [city, description, temperature].join(
         '<br />'
       );
 
