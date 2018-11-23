@@ -8,7 +8,7 @@ formSubmitElement.addEventListener('submit', handleFormSubmit);
 
 async function searchWeather(searchTerm) {
   const response = await fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&APPID=${APP_ID}`
+    `https://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&APPID=${APP_ID}`
   );
   return await response.json();
 }
