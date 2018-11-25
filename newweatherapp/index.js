@@ -8,7 +8,7 @@ formSubmitElement.addEventListener('submit', handleFormSubmit);
 
 function handleFormSubmit($event) {
   $event.preventDefault();
-  console.log('working');
+  
   const searchTerm = searchInputElement.value;
 
   if (searchTerm) {
@@ -33,7 +33,7 @@ function searchWeather(searchTerm) {
       const city = `City: ${cityName}`;
       const description = 'Weather Status: ' + weather_description;
       const temperature = 'Temperature: ' + tempMax;
-
+      console.log(jsonData);
       setBackgroundImage(cityStatus.toLowerCase());
       outputElement.innerHTML = [city, description, temperature].join(
         '<br />'
