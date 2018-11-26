@@ -1,0 +1,61 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 20px auto;
+  text-align: center;
+}
+
+form {
+  border-radius: 5px;
+  background-color: #fffbc3e7;
+  padding: 20px;
+  margin: 20px auto;
+  width: 400px;
+}
+input {
+  background: transparent;
+  border-bottom: 1px solid gray !important;
+  display: block;
+  padding: 8px 16px;
+  font-size: 1em;
+  margin: 40px auto;
+  width: 60%;
+  border: none;
+  outline: none;
+}
+input:focus::-webkit-input-placeholder {
+  opacity: 0.3;
+  size: 0.7rem;
+}
+input:focus {
+  color: rgba(0, 63, 146, 0.753);
+  font-size: 1rem;
+}
+
+button {
+  background-color: rgba(156, 156, 212, 0.171);
+  color: rgba(80, 80, 192, 0.664);
+  display: block;
+  padding: 8px 16px;
+  font-size: 1.3em;
+  margin: 10px auto;
+  width: 30%;
+}
+button:hover {
+  background-color: rgba(94, 94, 182, 0.541);
+  color: rgba(80, 80, 192, 0.664);
+  cursor: pointer;
+}
+.Sign_in_link {
+  font-size: 0.8rem;
+  color: orange;
+  text-align: right;
+}
+footer {
+  text-align: center;
+}
