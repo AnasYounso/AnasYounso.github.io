@@ -12,41 +12,48 @@
   </head>
   <body>
     <main class="main">
-      <div class="main-bg"></div>
+          <div class="main-bg"></div>
+
       <div class="main__content">
-        <div class="card">
-          <div class="card__header">
-            <div>
-              <div class="card__header-icon">
-                <img src="./assets/weather_icons/sw-03.svg" />
+          <div class="card">
+             <div class="card__header">
+                    <div>
+                        <div class="card__header-icon">
+                        <img src="./assets/weather_icons/sw-03.svg" />
+                        </div>
+                      <p class="description">Partly Clouldy</p>                       
+                    </div>
+                     
+            </div><!-- end of the card__header div -->             
+            <nav class="nav">
+                <div class="nav__item">Today</div>
+                <div class="nav__item">Week</div>
+              </nav>  
+                <div class="list">
+                  <div class="list__items"><div >09:00 a.m.</div><div class="list__icon"><img class="icon__img" src="./assets/weather_icons/sw-03.svg" /><div class="list__degree">24&#7506</div> </div></div>
+                  <div class="list__items"><div >12:00 a.m.</div><div class="list__icon"><img class="icon__img"src="./assets/weather_icons/sw-01.svg" /><div class="list__degree">26&#7506</div></div></div>
+                  <div class="list__items"><div >05:00 p.m.</div><div class="list__icon"><img class="icon__img" src="./assets/weather_icons/sw-01.svg" /><div class="list__degree">28&#7506</div></div></div>
+                  <div class="list__items"><div >09:00 p.m.</div><div class="list__icon"><img class="icon__img" src="./assets/weather_icons/sw-01.svg" /><div class="list__degree">26&#7506</div></div></div>
+                </div> 
+         </div> <!-- end of the card div -->
+                  
+              <div class="sidebar">
+                      <div class="city_info">
+                        <p class="city__name">San Fransisco</p>
+                        <p class="city__state">CALIFORNIA</p>
+                      </div>
+
+                       <div class="temp__info">
+                        <div>
+                            <time><strong>8:43 a.m.</strong></time> 
+                            <date>Monday, November 16th</date>
+                        </div>
+
+                        <p class="temp__caption">
+                          <strong>28&#7506</strong>
+                        </p> 
+                       </div>                           
               </div>
-              <p class="description">Partly Clouldy</p>
-            </div>
-          </div>
-
-          <nav class="nav">
-            <div class="nav__item">Today</div>
-            <div class="nav__item">Week</div>
-          </nav>
-          <div class="list"></div>
-        </div>
-        <div class="sidebar">
-          <div class="city_info">
-            <p class="city_name">San Fransisco</p>
-            <p class="city_state"><b>CALIFORNIA</b></p>
-          </div>
-
-          <div class="temp_info">
-            <div>
-                <time><strong>8:43 a.m.</strong></time> 
-                <date>Monday, November 16th</date>
-            </div>
-
-            <p class="temp_caption">
-              <strong>28&#7506</strong>
-            </p> 
-          </div>                           
-        </div>
       </div>
     </main>
 
