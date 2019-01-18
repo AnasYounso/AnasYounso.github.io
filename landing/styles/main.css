@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+
+.nav-bar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 66px;
+  margin: -100px 0px 0px -7.6px;
+  padding: 10px;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: white;
+  width: 70%;
+}
+
+a {
+  margin: 20px;
+}
+
+a:hover {
+  color: #eb5b49;
+  cursor: pointer;
+}
+
+.startactive {
+  color: #eb5b49;
+}
+
+.apply-btn {
+  border-radius: 15px;
+  border: 0;
+  width: 134px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #eb5b49;
+  margin: 14px 0px 0px 0px;
+  box-shadow: 0px 1px 10px #eb5b49;
+  outline: none;
+}
+.apply-btn:hover {
+  color: #ffffff;
+  background-color: #eb5b49;
+  box-shadow: 0px 0px 40px #f08b7e;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.welcome {
+  font-family: 'Nunito Sans', sans-serif;
+  height: 663px;
+  background: white;
+  text-align: center;
+}
+
+.picture-section {
+  font-family: 'Nunito Sans', sans-serif;
+  height: 663px;
+}
+
+.team-section {
+  font-family: 'Nunito Sans', sans-serif;
+  height: 663px;
+}
+
+.process-section {
+  font-family: 'Nunito Sans', sans-serif;
+  height: 663px;
+}
+
+.vivamus-section {
+  font-family: 'Nunito Sans', sans-serif;
+  height: 663px;
+}
+
+.discover-section {
+  font-family: 'Nunito Sans', sans-serif;
+  height: 663px;
+}
+
+.apply-section {
+  font-family: 'Nunito Sans', sans-serif;
+  height: 663px;
+}
