@@ -583,6 +583,9 @@ a:hover {
     text-align: center;
     margin: 0px 20px 15px 20px;
   }
+  .logo-designedby {
+    margin: 15px 0px 0px -20px;
+  }
 }
 @media only screen and (max-width: 375px) {
   .pic {
