@@ -379,11 +379,14 @@ form {
   padding: 5px 5px 5px 5px;
 }
 
+
 .column--double {
   text-align: right;
   flex: 2 0 auto;
-  color: #999999;
+  color: #cccccc;
   font-size: 10px;
+  line-height: 3px;
+  letter-spacing: 1px;
 }
 
 .column-links {
@@ -393,9 +396,8 @@ form {
 .logo-designedby {
   width: 110px;
   height: 24px;
-  margin: 5px 0px 0px 0px;
+  margin: 10px -8px 0px 0px;
 }
-
 .links {
   margin-top: 12px;
   display: flex;
