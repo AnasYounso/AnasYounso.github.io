@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+      rel="stylesheet"
+    />
+    <title>Uproar</title>
+  </head>
+  <body>
+    <div class="page-wraper">
+      <aside class="aside">
+        <div class="aside__header">
+          <!--startlogo-->
+          <div class="logo">
+            <div class="icon icon--primary">
+              <img src="./assets/icon-shape.svg" alt="uproar logo" />
+            </div>
+            &nbsp;
+            <div class="website-title">UPROAR</div>
+          </div>
+          <!--end logo-->
+          <div class="icon-beta">beta</div>
+        </div>
+        <!-- nav start -->
+        <nav class="nav">
+          <div class="nav__element">
+            <a id="drop-main-list" class="nav__link dropdown">Games</a>
+          </div>
+          <div class="nav__element-links">
+            <a class="nav__element-label">All Games</a>
+            <a id="Categories" class="nav__element-label dropdown"
+              >Categories</a
+            >
+            <!-- Categories list start -->
+            <ul id="nav-items">
+              <li class="nav-item">
+                <img
+                  class="c_icon"
+                  src="./assets/icon-sword.svg"
+                  alt="icon sword"
+                /><a class="links ">Action</a>
+              </li>
+              <li class="nav-item">
+                <img
+                  class="c_icon"
+                  src="./assets/icon-spaceship.svg"
+                  alt="icon spaceship"
+                /><a class="links">Adventure</a>
+              </li>
+              <li class="nav-item">
+                <img
+                  class="c_icon"
+                  src="./assets/puzzle.svg"
+                  alt="icon puzzle"
+                /><a class="links">Casual</a>
+              </li>
+              <li class="nav-item">
+                <img
+                  class="c_icon"
+                  src="./assets/icon-chess.png"
+                  alt="icon chess"
+                /><a class="links">Strategy</a>
+              </li>
+              <li class="nav-item">
+                <img
+                  class="c_icon"
+                  src="./assets/icon-qube.svg"
+                  alt="icon qube"
+                /><a class="links">Intellectual</a>
+              </li>
+              <li class="nav-item">
+                <img
+                  class="c_icon"
+                  src="./assets/icon-sport.svg"
+                  alt="icon grid"
+                /><a class="links">Sport</a>
+              </li>
+            </ul>
+            <!-- Categories list end -->
+            <a class="nav__element-label">Recommended</a>
+            <a class="nav__element-label">New!</a>
+            <a class="nav__element-label">Most Played</a>
+          </div>
+
+          <div class="nav__element">
+            <img
+              class="icon grid"
+              src="./assets/icon-grid.svg"
+              alt="uproar-grid"
+            />
+            <a>My Games</a>
+          </div>
+        </nav>
+        <!-- nav end -->
+        <div class="mode-toggle">
+          <label class="active">Dark mode</label>
+          <div class="toggle">
+            <input
+              type="checkbox"
+              name="toggle"
+              class="toggle-on"
+              id="toggleButton"
+            />
+            <!-- <input type="radio" name="toggle" class="toggle-on toggle-off" /> -->
+            <label class="div" for="toggleButton">
+              <span class="circle"></span>
+            </label>
+          </div>
+        </div>
+      </aside>
+      <div class="main-wraper">
+        <header class="header">
+          <!--start of header container-->
+          <div class="header-container">
+            <nav class="navbar"><a>FAQ</a><a>About</a><a>Support</a></nav>
+            <!--start profile-info-->
+            <div class="profile-info">
+              <!--start logo header-->
+              <div class="logo-header">
+                &nbsp;
+                <div class="icon-header">
+                  <div class="icon icon--primary icon--primary-header">
+                    <img src="./assets/icon-shape.svg" alt="uproar logo" />
+                  </div>
+                  <div class="uproar-count">650&nbsp; +</div>
+                </div>
+                <!--end logo-->
+                <!--start logo second-->
+                <div class="icon-header icon-header__count">
+                  <div class="icon icon--secondary">
+                    <img src="./assets/icon-energy.svg" alt="uproar logo" />
+                  </div>
+                  <div class="uproar-count">
+                    1200
+                    <span class="uproar-count uproar-count__hours"
+                      >+5/hour</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!--end logo second-->
+              <div class="profile-picture">
+                <img src="./assets/Rectangle.png" alt="profile picture" />
+              </div>
+            </div>
+            <!--end profile-info-->
+          </div>
+          <!--end of header container-->
+        </header>
+        <main></main>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
