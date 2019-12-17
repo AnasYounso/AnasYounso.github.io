@@ -17,7 +17,7 @@ function handleFormSubmit($event) {
 }
 
 function searchWeather(searchTerm) {
-  let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&APPID=${APP_ID}`;
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&APPID=31ecc785bd8b32329afc9de1665642c2`;
   let data = new XMLHttpRequest();
   data.onreadystatechange = function() {
     if (data.readyState == 4 && data.status == 200) {
