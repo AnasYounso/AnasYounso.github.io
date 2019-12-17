@@ -1,4 +1,3 @@
-
 const key = 'VbAGA6yoLuGUbWNrb7x23ww6eEJ9N0iK';
 
 //get weather information
@@ -25,6 +24,3 @@ const getCity = async (city) => {
 
  return data[0];
 };
-
-
-
